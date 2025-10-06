@@ -1,24 +1,16 @@
-# Welcome!
-
-This Java template lets you get started quickly with a simple one-page playground.
-
-```java runnable
-// { autofold
+// Conditional statements
 public class Main {
 
 public static void main(String[] args) {
-// }
-
-String message = "Hello World!";
-System.out.println(message);
-
-//{ autofold
+    int num = 10;
+    if(num<10)
+    System.out.println("Smaller");
+    else if(num == 10)
+    System.out.println("Equal");
+    else
+    System.out.println("Greater");
 }
 
+//{
 }
 //}
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
